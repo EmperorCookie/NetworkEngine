@@ -15,6 +15,7 @@ NetworkEngine is designed to be as simple as possible to use but at the same tim
 
 * Zone system allows network entities to be separated into virtual zones to prevent useless traffic
 * Remote function execution, supports both global and entity-centric
+* Movement smoothing with support for both interpolation and extrapolation
 
 ## Using NetworkEngine
 
