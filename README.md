@@ -29,7 +29,7 @@ NetworkEngine is designed to be as simple as possible to use but at the same tim
 
 In order to define an entity in GM:S, you create a regular object and make it a child of `obj_entity`.
 
-Entitie instances should be created using `entity_create` instead of `instance_create` and destroyed using `entity_destroy`.
+Entity instances should be created using `entity_create` instead of `instance_create` and destroyed using `entity_destroy`.
 
 Entities have some useful variables that you can set in order to get started easily:
 
