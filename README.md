@@ -23,8 +23,9 @@ NetworkEngine is designed to be as simple as possible to use but at the same tim
 
 **Important:** The server is also a client in this engine, so there is no need to connect to a server that was hosted locally.
 
-1. Create (`server_create`) or join (`client_connect`) by IP (You can also use DNS lookup `network_resolve` with the built-in GM:S function)
-2. Start using the engine
+1. [Download the extension](https://github.com/EmperorCookie/NetworkEngine/releases) and import everything in your project
+2. Create (`server_create`) or join (`client_connect`) by IP (You can also use DNS lookup `network_resolve` with the built-in GM:S function)
+3. Start using the engine
 
 ### Entities
 
