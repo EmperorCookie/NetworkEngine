@@ -1,4 +1,4 @@
-///ne_enums()
+///ne_enums(do_not_call)
 
 enum NET {
     UDP_PORT,

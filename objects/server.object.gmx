@@ -34,6 +34,7 @@ max_players = 16;
 local_entities = ds_list_create();
 connections = ds_map_create();
 zone_map = ds_map_create();
+zone_list = ds_list_create();
 tick = 0;
 socket = -1;
 socket_udp = -1;
