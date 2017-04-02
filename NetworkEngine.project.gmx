@@ -39,7 +39,6 @@
       <script>scripts\zone_unsubscribe.gml</script>
     </scripts>
   </scripts>
-  <shaders name="shaders"/>
   <objects name="objects">
     <objects name="NetworkEngine">
       <objects name="Server">

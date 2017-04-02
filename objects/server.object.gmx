@@ -190,7 +190,7 @@ if(tick &gt;= 1) {
                         buffer_write(tcp_sync, buffer_bool, true);
                         buffer_write(tcp_sync, buffer_string, n);
                         buffer_write(tcp_sync, buffer_u8, sv_types[?n]);
-                        buffer_write(tcp_sync, sv_types[?n], sv_values[?n]);
+                        buffer_write(tcp_sync, sv_types[?n], sv[?n]);
                     }
                 } else {
                     if(!udp_done) {
@@ -207,7 +207,7 @@ if(tick &gt;= 1) {
                     buffer_write(udp_sync, buffer_bool, true);
                     buffer_write(udp_sync, buffer_string, n);
                     buffer_write(udp_sync, buffer_u8, sv_types[?n]);
-                    buffer_write(udp_sync, sv_types[?n], sv_values[?n]);
+                    buffer_write(udp_sync, sv_types[?n], sv[?n]);
                 }
             }
             if(tcp_var_done) {

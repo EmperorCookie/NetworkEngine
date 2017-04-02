@@ -151,7 +151,7 @@ switch(reason) {
                             var t = buffer_read(argument0, buffer_u8);
                             var v = buffer_read(argument0, t);
                             if(!is_undefined(r)) {
-                                r.sv_values[?n] = v;
+                                r.sv[?n] = v;
                             }
                         }
                     break;

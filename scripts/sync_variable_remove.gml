@@ -4,7 +4,7 @@ var i = ds_list_find_index(sv_names, argument0);
 if(i >= 0) {
     ds_list_delete(sv_names, i);
     ds_map_delete(sv_types, argument0);
-    ds_map_delete(sv_values, argument0);
+    ds_map_delete(sv, argument0);
     ds_map_delete(sv_tcp, argument0);
     ds_map_delete(sv_changed, argument0);
 } else {

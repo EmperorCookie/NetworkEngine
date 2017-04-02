@@ -33,9 +33,9 @@ zone_list = ds_list_create();
 zone_map = ds_map_create();
 // SYNC VARIABLES //
 // PLEASE USE sync_variable_*** FUNCTIONS //
+sv = ds_map_create();
 sv_names = ds_list_create();
 sv_types = ds_map_create();
-sv_values = ds_map_create();
 sv_tcp = ds_map_create();
 sv_changed = ds_map_create();
 // SYNC BUILT-IN PROPERTIES //

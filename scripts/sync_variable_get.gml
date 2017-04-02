@@ -1,3 +1,3 @@
 ///sync_variable_get(name)
-// USE sv_values[?name]
-return sv_values[?argument0];
+// USE sv[?name]
+return sv[?argument0];

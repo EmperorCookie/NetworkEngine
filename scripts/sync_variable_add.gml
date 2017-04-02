@@ -23,7 +23,7 @@ if(is_string(argument0)) {
     if(ds_list_find_index(sv_names, argument0) == -1) {
         ds_list_add(sv_names, argument0);
         sv_types[?argument0] = argument1;
-        sv_values[?argument0] = argument2;
+        sv[?argument0] = argument2;
         sv_tcp[?argument0] = !(!argument3);
         sv_changed[?argument0] = true;
     } else {
